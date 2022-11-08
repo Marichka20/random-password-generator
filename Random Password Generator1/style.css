@@ -1,0 +1,72 @@
+body{
+  background-color: #1F2937;
+}
+.container{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border: 2px solid #10B981;
+  border-style: outset;
+  padding: 45px 45px;
+}
+.gen-pass{
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 30px;
+letter-spacing: 0.025em;
+line-height: 0.9;
+color: #FFFFFF;
+}
+.random{
+  color: #4ADF86;
+  margin-bottom: 0px;
+}
+p {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 28px;
+color: #D5D4D8;
+}
+p, h1, button {
+  margin: 20px;
+  padding: 0px;
+}
+
+button{
+  background: #10B981;
+  border-radius: 6px;
+  width: 159px;
+  height: 40px;
+  color: #FFFFFF;
+}
+
+:hover{
+cursor: pointer;
+background-color: #1F2937;
+}
+.btn-div{
+  text-align: center;
+}
+.in-form{
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+input{
+  width: 230px;
+  height: 25px;
+  color: #10B981;
+  text-align: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 0.099em;
+}
